@@ -398,7 +398,7 @@ function gettrains(i) {
  if(a!=-1&&b!=-1){ let p = fetch(`https://irctc1.p.rapidapi.com/api/v3/trainBetweenStations?fromStationCode=${from}&toStationCode=${to}&dateOfJourney=${date}`, {
   method: 'GET',
   headers: {
-    'x-rapidapi-key': '6d9cc1171bmsh218628218599d9fp1983edjsn0448d4305f23',
+    'x-rapidapi-key': 'fbbaa1c374msh0cc19d1ce6156a5p1e4c63jsn9aa1747904c3',
     'x-rapidapi-host': 'irctc1.p.rapidapi.com'
   }
 })
